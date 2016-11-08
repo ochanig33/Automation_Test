@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="123076" started-at="2016-11-08T09:37:52Z" finished-at="2016-11-08T09:39:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="123076" started-at="2016-11-08T09:37:52Z" finished-at="2016-11-08T09:39:55Z">
+      <class name="com.test.PublicUser">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.PublicUser@636be97c]" name="setup" is-config="true" duration-ms="61759" started-at="2016-11-08T15:07:52Z" finished-at="2016-11-08T15:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:com.test.PublicUser@636be97c]" name="Login" duration-ms="5487" started-at="2016-11-08T15:08:54Z" finished-at="2016-11-08T15:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.PublicUser@636be97c]" name="tearDown" is-config="true" duration-ms="2" started-at="2016-11-08T15:08:59Z" finished-at="2016-11-08T15:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=PublicUser.Login()[pri:1, instance:com.test.PublicUser@636be97c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="createNewIdea()[pri:2, instance:com.test.PublicUser@636be97c]" name="createNewIdea" duration-ms="55745" started-at="2016-11-08T15:08:59Z" finished-at="2016-11-08T15:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewIdea -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.PublicUser@636be97c]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-11-08T15:09:55Z" finished-at="2016-11-08T15:09:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createNewIdea status=SUCCESS method=PublicUser.createNewIdea()[pri:2, instance:com.test.PublicUser@636be97c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.PublicUser@636be97c]" name="tearDown" is-config="true" duration-ms="24" started-at="2016-11-08T15:09:55Z" finished-at="2016-11-08T15:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.PublicUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
