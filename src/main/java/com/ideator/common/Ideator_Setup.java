@@ -16,7 +16,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class Ideator_Setup {
-	Homepage homepage;
+	Homepage homepage1;
 	LoginPage loginpage;
 	AdminPage adminPage;
 	ExtentReports report;
